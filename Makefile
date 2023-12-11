@@ -11,7 +11,7 @@ PKG_BUILD_DIR:=$(BUILD_DIR)/openhybrid-$(PKG_VERSION)
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/action-server/openhybrid.git
 PKG_SOURCE_VERSION:=263fee312418b7eb7ee844ee8dc5b919c59e9142
-PKG_MIRROR_HASH:=f726a39d77d2b2dd8845eaf458324a4e390bd044efdc1b433b2369c380525213
+PKG_MIRROR_HASH:=6c6cb079295190b283d7107dc27a2db84ee1efefa56b5be87cd8dafd083200fe
 
 include $(INCLUDE_DIR)/package.mk
  
@@ -20,7 +20,7 @@ define Package/openhybrid
 	TITLE:=OpenHybrid - An RFC8157 implementation.
 	URL:=https://github.com/action-server/openhybrid.git
 	MAINTAINER:=dev@action-server.com
-	DEPENDS:=+libc +libmnl +busybox
+	DEPENDS:=+libc +libmnl +busybox +gre
 endef
  
 define Package/openhybrid/description
