@@ -1,2 +1,2 @@
 # openhybrid-openwrt
-OpenWRT packge for OpenHybrid
+OpenWRT package for OpenHybrid
