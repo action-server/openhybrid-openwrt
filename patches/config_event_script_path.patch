@@ -1,0 +1,13 @@
+diff --git a/data/config b/data/config
+index 64ffe49..1b44b30 100644
+--- a/data/config
++++ b/data/config
+@@ -30,7 +30,7 @@
+ #hello retry times = 10
+ 
+ # Event script path
+-#event script path = /path/to/openhybrid-event
++event script path = /usr/sbin/openhybrid-event
+ 
+ # maximum time the reorder buffer will wait for a packet before giving up
+ # in milli seconds, 0 disables reordering
